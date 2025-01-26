@@ -8,3 +8,4 @@ datos = {'Nombre':['Leonardo' , 'Joaquin','Alex','Paula','Enrique','Jhon'],
 
 df = pd.DataFrame(datos)
 print(df)
+print('\n'*4)
