@@ -35,4 +35,6 @@ print('\n'*4)
 columna = df2[df2['Nombre']!='N/A']
 print(columna)
 
-
+#CONVERTIR LOS NUMEROS A ENTEROS
+df['Calificaciones'] = df.Calificaciones.astype(int)
+print(df.describe())
