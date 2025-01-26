@@ -23,3 +23,16 @@ print('\n'*1)
 
 print(df2.info())
 
+#ESTADISTICAS BASICAS
+print(df2.describe())
+print('\n'*4)
+nuevo = pd.DataFrame(df2)
+nuevo = nuevo.replace(np.nan,"0")
+print(nuevo);
+print('\n'*4)
+
+#ELIMINAR REGISTRO POR COLUMNA
+columna = df2[df2['Nombre']!='N/A']
+print(columna)
+
+
