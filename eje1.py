@@ -38,3 +38,7 @@ print(columna)
 #CONVERTIR LOS NUMEROS A ENTEROS
 df['Calificaciones'] = df.Calificaciones.astype(int)
 print(df.describe())
+
+#ESTADISTICAS INDIVIDUALES
+print("Promedio:",df['Calificaciones'].mean())
+
